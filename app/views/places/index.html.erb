@@ -1,1 +1,10 @@
-<h1>Welcome to Nomster</h1>
+<h1>Mikes Rocking Places</h1>
+<% @places.each do |place| %>
+  <div>
+    <h1><%= place.name %></h1>
+    <i><%= place.address %></i>
+    <p><%= place.description %></p>
+  </div>
+
+  <hr />
+<% end %>
