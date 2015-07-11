@@ -1,5 +1,7 @@
 /*
- Do not use the //= require syntax
+ *
+ *= require_self
+ *= require_tree .
  */
 
 @import "bootstrap-sprockets";
