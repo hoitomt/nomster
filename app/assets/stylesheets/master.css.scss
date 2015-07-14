@@ -1,3 +1,8 @@
+body {
+  background: url('/assets/confectionary.png');
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -13,4 +18,10 @@
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
+}
+
+.navbar.navbar-inverse {
+  background:url('/assets/subtle_carbon.png');
+  border-radius: 0px;
+  box-shadow: 0px 1px 3px #2a2a2a;
 }
